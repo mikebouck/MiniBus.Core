@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniBus.Core", "src\MiniBus\MiniBus.Core.csproj", "{C1F043F5-20BC-4D74-A64B-1013D2EE7DE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniBus.Core", "src\MiniBus.Core\MiniBus.Core.csproj", "{C1F043F5-20BC-4D74-A64B-1013D2EE7DE1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniBus.Sample", "src\MiniBus.Sample\MiniBus.Sample.csproj", "{367CAB86-77AE-4BDA-8EEA-59F66FFF16AD}"
 EndProject

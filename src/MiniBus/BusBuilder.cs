@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Linq;
 using System.Security.Principal;
-using System.Threading;
 using System.Collections.Generic;
 using System.ServiceProcess;
 using System.Text.RegularExpressions;

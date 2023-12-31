@@ -13,6 +13,6 @@
     <PackageReference Include="log4net" Version="2.0.15" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MiniBus\MiniBus.csproj" />
+    <ProjectReference Include="..\MiniBus\MiniBus.Core.csproj" />
   </ItemGroup>
 </Project>

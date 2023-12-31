@@ -12,6 +12,6 @@
     <PackageReference Include="NUnit3TestAdapter" Version="4.5.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MiniBus\MiniBus.csproj" />
+    <ProjectReference Include="..\MiniBus\MiniBus.Core.csproj" />
   </ItemGroup>
 </Project>

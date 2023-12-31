@@ -1,4 +1,4 @@
-# MiniBusCore
+# MiniBus.Core
 
 A small .NET Core/Framework (Windows only due to MSMQ dependency) messaging library ported from MiniBus (.NET Framework only) by Steve Bate.  Support for transactions, automatic retries, load balancing, JSON serialization, and more.  Basically MiniBus but compilation target is .NET Standard in addition to .NET Framework. Provides a simple and reliable way of integrating applications and services via message queues minus the complexity of a full-on ESB.
 

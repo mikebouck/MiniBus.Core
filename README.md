@@ -1,8 +1,8 @@
 # MiniBusCore
 
-A small .NET Core (Windows only due to MSMQ dependency) messaging library ported from MiniBus (.NET Framework only) by Steve Bate.  Support for transactions, automatic retries, load balancing, JSON serialization, and more.  Basically MiniBus but compilation target is .NET Standard. Provides a simple and reliable way of integrating applications and services via message queues minus the complexity of a full-on ESB.
+A small .NET Core/Framework (Windows only due to MSMQ dependency) messaging library ported from MiniBus (.NET Framework only) by Steve Bate.  Support for transactions, automatic retries, load balancing, JSON serialization, and more.  Basically MiniBus but compilation target is .NET Standard in addition to .NET Framework. Provides a simple and reliable way of integrating applications and services via message queues minus the complexity of a full-on ESB.
 
-* NOTE - MiniBusCore now appears as Mini.Bus.Core in NuGet package manager
+* NOTE - MiniBus.Core now appears as Mini.Bus.Core in NuGet package manager
 
 ## Features
 
@@ -231,12 +231,12 @@ View the contents of a message specified by its Id as a plain string which can b
 If you want to build the source, clone the repository, and open up MiniBus.sln.
 
 ```csharp
-git clone https://github.com/mikebouck/MiniBusCore.git
-explorer path/to/MiniBus/MiniBus.sln
+git clone https://github.com/mikebouck/MiniBus.Core.git
+explorer path/to/MiniBus/MiniBus.Core.sln
 ```
 
 ## Supported Platforms
-MiniBusCore targets .NET Standard 2.0 and with regard to MSMQ, Windows 7, 8, Server 2008 and above.
+MiniBus.Core targets .NET Standard 2.0 and .NET Framework 4.6.2 and with regard to MSMQ, Windows 7, 8, Server 2008 and above.
 
 ## License
 [MIT License](http://opensource.org/licenses/MIT)

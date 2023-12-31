@@ -228,11 +228,11 @@ View the contents of a message specified by its Id as a plain string which can b
 
 ## Building the Source
 
-If you want to build the source, clone the repository, and open up MiniBus.sln.
+If you want to build the source, clone the repository, and open up MiniBus.Core.sln.
 
 ```csharp
 git clone https://github.com/mikebouck/MiniBus.Core.git
-explorer path/to/MiniBus/MiniBus.Core.sln
+explorer path/to/MiniBus.Core/MiniBus.Core.sln
 ```
 
 ## Supported Platforms

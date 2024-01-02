@@ -3,9 +3,17 @@
     <TargetFrameworks>netstandard2.0;net48</TargetFrameworks>
     <AssemblyName>MiniBus.Core</AssemblyName>
     <RootNamespace>MiniBus</RootNamespace>
-    <AssemblyVersion>0.2.0.0</AssemblyVersion>
-    <FileVersion>1.0.0.0</FileVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Provides a simple and reliable way of integrating applications and services via message queues minus the complexity of a full-on ESB.</Description>
+    <Authors>MiniBus Team</Authors>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/mikebouck/MiniBus.Core</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mikebouck/MiniBus.Core</RepositoryUrl>
+    <PackageTags>MSMQ, Bus, ESB</PackageTags>
+    <NeutralLanguage>en</NeutralLanguage>
+    <AssemblyVersion>0.2.0</AssemblyVersion>
+    <FileVersion>0.2.0</FileVersion>
+    <PackageVersion>0.2.0</PackageVersion>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="MSMQ.Messaging" Version="1.0.4" />

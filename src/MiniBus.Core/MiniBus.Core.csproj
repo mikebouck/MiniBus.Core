@@ -6,6 +6,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>A reliable MSMQ messaging library designed for application integration scenarios. Support for transactions, load balancing, automatic retries, json serialization, and more.  Note that Mini.Bus.Core targets both .NET Standard and .NET Framework (unlike Mini.Bus which is .NET Framework only).</Description>
     <Authors>MiniBus Team</Authors>
+    <PackageId>Mini.Bus.Core</PackageId>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/mikebouck/MiniBus.Core</PackageProjectUrl>
     <RepositoryUrl>https://github.com/mikebouck/MiniBus.Core</RepositoryUrl>
@@ -17,7 +18,6 @@
     <FileVersion>0.2.0</FileVersion>
     <PackageVersion>0.2.0</PackageVersion>
     <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
-    <PackageId>Mini.Bus.Core</PackageId>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="MSMQ.Messaging" Version="1.0.4" />

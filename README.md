@@ -1,6 +1,6 @@
 # MiniBus.Core
 
-A small .NET Standard messaging library forked from [MiniBus](https://github.com/SteveBate/MiniBus) (.NET Framework) by Steve Bate.  Support for transactions, automatic retries, load balancing, JSON serialization, and more.  Basically MiniBus but compilation target is .NET Standard (Windows only due to MSMQ dependency). Provides a simple and reliable way of integrating applications and services via message queues minus the complexity of a full-on ESB.
+A small .NET Standard/Framework messaging library forked from [MiniBus](https://github.com/SteveBate/MiniBus) (.NET Framework) by Steve Bate.  Support for transactions, automatic retries, load balancing, JSON serialization, and more.  Basically MiniBus but compilation targets are .NET Standard (Windows only due to MSMQ dependency) as well as .NET Framework. Provides a simple and reliable way of integrating applications and services via message queues minus the complexity of a full-on ESB.
 
 MiniBus.Core leverages Bill Loytty's excellent [MSMQ.Messaging](https://github.com/weloytty/MSMQ.Messaging) library (a straight port of the .NET Framework's System.Messaging assembly to .NET Core, based on the reference source).  This is necessary due to the MiniBus MSMQ dependency which, by default, is not supported by .NET Standard.
 
@@ -33,12 +33,12 @@ This package is currently available from [nuget.org](https://www.nuget.org/packa
 dotnet add package Mini.Bus.Core
 ```
 
-Please note that MiniBus.Core, though targeting .NET Standard, requires a Windows runtime environment (due to the MSMQ dependency).
+For .NET Core host applications only - please note that MiniBus.Core, though targeting .NET Standard, requires a Windows runtime environment (due to the MSMQ dependency).
 
 ## How to use
 
 ### Preparation
-For .NET Core host applications only - because MiniBus.Core expects legcacy transaction elevation semantics you'll need to enable this in your startup code like so:
+For .NET Core host applications only - because MiniBus.Core expects legacy transaction elevation semantics you'll need to enable this in your startup code like so:
 
 ```csharp
 TransactionManager.ImplicitDistributedTransactions = true;
@@ -256,7 +256,7 @@ explorer path/to/MiniBus.Core/MiniBus.Core.sln
 ```
 
 ## Supported Platforms
-MiniBus.Core targets .NET Standard 2.0 (Windows only due to MSMQ dependency).  With regard to MSMQ - Windows 7, 8, Server 2008 and above.
+MiniBus.Core targets .NET Standard 2.0 (Windows only due to MSMQ dependency) as well as .NET Framework.  With regard to MSMQ - Windows 7, 8, Server 2008 and above.
 
 ## License
 [MIT License](http://opensource.org/licenses/MIT)

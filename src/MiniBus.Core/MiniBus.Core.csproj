@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net462</TargetFrameworks>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>MiniBus.Core</AssemblyName>
     <RootNamespace>MiniBus</RootNamespace>
     <AssemblyVersion>0.2.0.0</AssemblyVersion>

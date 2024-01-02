@@ -4,7 +4,7 @@
     <AssemblyName>MiniBus.Core</AssemblyName>
     <RootNamespace>MiniBus</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Description>Provides a simple and reliable way of integrating applications and services via message queues minus the complexity of a full-on ESB.</Description>
+    <Description>A reliable MSMQ messaging library designed for application integration scenarios. Support for transactions, load balancing, automatic retries, json serialization, and more.  Note that Mini.Bus.Core targets both .NET Standard and .NET Framework (unlike Mini.Bus which is .NET Framework only).</Description>
     <Authors>MiniBus Team</Authors>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/mikebouck/MiniBus.Core</PackageProjectUrl>

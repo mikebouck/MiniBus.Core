@@ -38,7 +38,7 @@ Please note that MiniBus.Core, though targeting .NET Standard, requires a Window
 ## How to use
 
 ### Preparation
-Because MiniBus.Core expects legcacy transaction elevation semantics you'll need to enable this in your startup code like so:
+For .NET Core host applications only - because MiniBus.Core expects legcacy transaction elevation semantics you'll need to enable this in your startup code like so:
 
 ```csharp
 TransactionManager.ImplicitDistributedTransactions = true;

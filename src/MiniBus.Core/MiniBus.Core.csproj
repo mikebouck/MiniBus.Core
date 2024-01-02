@@ -9,7 +9,7 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/mikebouck/MiniBus.Core</PackageProjectUrl>
     <RepositoryUrl>https://github.com/mikebouck/MiniBus.Core</RepositoryUrl>
-    <PackageTags>MSMQ, Bus, ESB</PackageTags>
+    <PackageTags>messaging, msmq, bus</PackageTags>
     <NeutralLanguage>en</NeutralLanguage>
     <Title>Mini.Bus.Core</Title>
     <PackageReadmeFile>README.md</PackageReadmeFile>
